@@ -21,7 +21,7 @@ print("Tercer programa")
 print("Resultado_1: ", m.acos(0.5))
 
 
-#Segunda parte "El Modulo Random"
+# Segunda parte "El Modulo Random"
 import random as r 
 dado = r.randint(1,6)
 print("Resultado: ", dado) #para simular un dado
@@ -32,3 +32,22 @@ print("La com eligió: ", eleccion)
 
 probabilidad = r.random() #sirve para generar un decimal entre 0.0 y 1.0
 print("Porcentaje/Probabilidad: ", probabilidad)
+
+# Tercera parte "Variable de tipo cadena de caracter (str)"
+
+curso = "Python Basico"
+sesion = "Segunda Sesion"
+completo = curso + " - " + sesion # Concatenación
+print("Texto unido:", completo)
+
+# 2. Acceso a caracteres (Índices)
+print("Primer caracter:", completo[0])     # Muestra la 'P'
+print("Ultimo caracter:", completo[-1])    # Muestra la 'n'
+
+# 3. Subcadenas (Slicing)
+print("Primeros 6 caracteres:", completo[:6])
+
+# 4. Métodos útiles de cadenas
+print("En mayúsculas:", completo.upper()) #convierte a mayus o minus
+print("Veces que aparece 'a':", completo.count("a")) #cuantas "a" hay
+print("¿Es alfanumérico?:", "Python123".isalnum()) #verifica si solo hay letras y numeros 
