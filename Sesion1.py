@@ -40,7 +40,7 @@ sesion = "Segunda Sesion"
 completo = curso + " - " + sesion # Concatenación
 print("Texto unido:", completo)
 
-# 2. Acceso a caracteres (Índices)
+# 2. Acceso a caracteres (Índices) 
 print("Primer caracter:", completo[0])     # Muestra la 'P'
 print("Ultimo caracter:", completo[-1])    # Muestra la 'n'
 
@@ -53,10 +53,6 @@ print("Veces que aparece 'a':", completo.count("a")) #cuantas "a" hay
 print("¿Es alfanumérico?:", "Python123".isalnum()) #verifica si solo hay letras y numeros 
 
 # Metodos/atributos de una variable de tipo str
-
-# ==================================================
-# Métodos indispensables de variables str
-# ==================================================
 texto = "   Python es facil y Python es genial   "
 
 # 1. Limpieza de espacios en los extremos (.strip)
