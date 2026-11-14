@@ -81,3 +81,19 @@ print("mayusculas", "hola mundo, hola python, hola codigo".upper())
 frase = "Aprender Java es divertido"
 print("La palabra Java esta en la posicion: ", frase.find("Java"))
 print("Frase reemplazada: ", frase.replace("Java", "Python"))
+
+# Series booleanas 
+
+nota = 15
+asistencia = 80
+
+print("¿Aprobado?:", nota >= 11) 
+print("¿Asistencia perfecta?:", asistencia == 100)  
+print("¿No sacó nota máxima?:", nota != 20) 
+
+tiene_entrada = True
+es_vip = False
+
+print("Entrada y VIP:", tiene_entrada and es_vip) 
+print("Entrada o VIP:", tiene_entrada or es_vip)   
+print("No es VIP:", not es_vip)                    
