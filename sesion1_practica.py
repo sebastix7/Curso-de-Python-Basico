@@ -40,3 +40,29 @@ codigo = "UNI-2026-PERU"
 print("Primera letra es: ", codigo[0])
 print("Guion en pos 3:", codigo[3]) 
 print(" Ultima letra es: ", codigo[-1])
+
+# Ejercicio: Generador de Código de Usuario
+# Crea dos variables: carrera = "ingenieria" y sede = "lima".Extrae las primeras 3 letras de carrera 
+# ([:3]) y las primeras 3 letras de sede ([:3]), y únelas en mayúsculas con un número aleatorio de 3 cifras (r.randint(100, 999) convertido a 
+# texto con str(...)).   Imprime el código resultante (ej: INGLIM482) y verifica con .isalnum() si el código generado es válido (alfanumérico).
+
+carrera = "Ingeniería"
+sede = "lima"
+tres_carrera = carrera[:3] 
+tres_sede = sede[:3] 
+
+numero = str(r.randint(100,999))
+codigo_usuario = (tres_carrera + tres_sede + numero).upper()
+
+print("Código generado:", codigo_usuario)
+print("¿Es alfanumérico?:", codigo_usuario.isalnum()) 
+
+# Slicing 
+lenguaje = "Programacion en Python"
+print("Primeros 12 caracteres", lenguaje[0:12])
+
+# Metodos de cadenas 
+usuario = "sebastian2026"
+print("En mayúsculas sería: ", usuario.upper())
+print("Hay tantas a", usuario.count("a"))
+print("Esto es alfanumerico?", usuario.isalnum())

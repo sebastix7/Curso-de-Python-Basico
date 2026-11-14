@@ -40,7 +40,7 @@ sesion = "Segunda Sesion"
 completo = curso + " - " + sesion # Concatenación
 print("Texto unido:", completo)
 
-# 2. Acceso a caracteres (Índices) 
+# 2. Acceso a caracteres (Índices)
 print("Primer caracter:", completo[0])     # Muestra la 'P'
 print("Ultimo caracter:", completo[-1])    # Muestra la 'n'
 
@@ -77,9 +77,7 @@ print("¿'98765' son solo números?:", "98765".isdigit())
 
 # Variables booleanas
 
-# ==================================================
 # SEXTO PROGRAMA: Variables Booleanas (bool)
-# ==================================================
 
 # 1. Definición directa y tipo
 b1 = True
