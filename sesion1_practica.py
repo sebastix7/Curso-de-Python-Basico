@@ -66,3 +66,18 @@ usuario = "sebastian2026"
 print("En mayúsculas sería: ", usuario.upper())
 print("Hay tantas a", usuario.count("a"))
 print("Esto es alfanumerico?", usuario.isalnum())
+
+# Metodo de una variable de tipo str
+
+correo = " SEBASTIAN.ILLANES@GMAIL.COM "
+print("texto limpio", correo.strip())
+print("minusculas: ", "SEBASTIAN.ILLANES@GMAIL.COM".lower())
+
+mensaje = "hola mundo, hola python, hola codigo"
+print("Hay", mensaje.count("hola"), "palabras holas")
+print("mayusculas", "hola mundo, hola python, hola codigo".upper())
+
+# Seguimos con lo que resta
+frase = "Aprender Java es divertido"
+print("La palabra Java esta en la posicion: ", frase.find("Java"))
+print("Frase reemplazada: ", frase.replace("Java", "Python"))
