@@ -1,4 +1,4 @@
-# RESUMEN - SESIÓN 3
+# RESUMEN - SESIÓN 2    
 
 # 1. FUNCIÓN DE ENTRADA: input()
 # Detiene el programa y espera que el usuario escriba algo por teclado.
