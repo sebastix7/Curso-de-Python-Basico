@@ -16,3 +16,15 @@ print("El resultado del area es: ", area)
 print("Ejercicio de la seccion 3")
 import getpass
 clave = getpass.getpass("Dime tu contraseña: ")
+
+print("Ejercicio de la seccion 4")
+
+temperatura = float(input("Ingresa la temperatura (°C): "))
+if temperatura < 15:
+    print("Hace frío, llevo un abrigo")
+elif temperatura >= 15 and temperatura <= 25:
+    print("Clima templado y agradable")
+else: 
+    print("Hace calor, usar ropa ligera")
+
+print("Ejercicio de la seccion 5")
