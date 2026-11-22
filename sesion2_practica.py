@@ -26,5 +26,3 @@ elif temperatura >= 15 and temperatura <= 25:
     print("Clima templado y agradable")
 else: 
     print("Hace calor, usar ropa ligera")
-
-print("Ejercicio de la seccion 5")
